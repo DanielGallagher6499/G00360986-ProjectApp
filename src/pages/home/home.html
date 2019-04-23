@@ -1,14 +1,22 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="dark">
     <ion-title>
-      Ionic Blank
+      Game of Thrones index
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
+<ion-content padding class="bg-image">
+  
+  <h4>Welcome to G.O.T Index</h4>
   <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
+    Welcome! In this application all information about brave warriors from the popular HBO series "Game of Thrones" will be covered as its that time of year again when the series starts to be released.
   </p>
+  
+  <p>With the return of "Game of Thrones" this April we thought this app will help fans to refresh their mind and get a feel for what is to come next in the series.</p>
+
+  <p>Clicking the button below will take you to a page of characters where you can choose what warrior you would like to be told about. Information like Name , Age , Date of birth and Date they died is contained. Enjoy!</p>
+
+  <button ion-button round color="dark"(click)="btnClicked()">Begin Quest!</button>
+
 </ion-content>
